@@ -4,7 +4,7 @@
     <b-navbar-item tag="router-link" :to="{ path: '/'}">
       <img
         src="../assets/terminal.jpg"
-        alt="Itachi Uchiha"
+        alt="Terminal Image"
       >
     </b-navbar-item>
   </template> 
