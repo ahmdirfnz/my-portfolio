@@ -1,6 +1,7 @@
 <template>
-<h1>{{msg}}</h1>
-
+<div class="box">
+  I'm in a box.
+</div>
 </template>
 
 <script>
@@ -14,18 +15,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+
+.box-margin {
+  margin-top: 10px;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+.box {
+  padding: 30px
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>

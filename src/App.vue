@@ -1,19 +1,19 @@
 <template>
   <div id="app" class="bg-img">
     <Navbar />
-    <!-- <Home msg="Hi I am irfanz"/> -->
+    <Home msg="Hi I am irfanz"/>
   </div>
 </template>
 
 <script>
-// import Home from './components/Home.vue'
+import Home from './components/Home.vue'
 import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'App',
   components: {
-    Navbar
-    // Home    
+    Navbar,
+    Home    
   }
 }
 </script>
@@ -22,12 +22,9 @@ export default {
 
 body, html {
   height: 100%;
-  padding-top: 0px !important;
 }
 
 #app {
-  margin: 0px;
-  height: 100%;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
