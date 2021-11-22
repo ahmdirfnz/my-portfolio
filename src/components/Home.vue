@@ -1,6 +1,15 @@
 <template>
-<div class="box">
+<!-- <div class="box">
   I'm in a box.
+</div> -->
+
+<div class="tile is-ancestor">
+  <div class="tile is-child notification is-warning">
+    Salam... 
+  </div>
+  <div class="tile is-child notification is-primary">
+    Perkenalan
+  </div>
 </div>
 </template>
 
@@ -21,7 +30,7 @@ export default {
 }
 
 .box {
-  padding: 30px
+  padding: 30px;
 }
 
 </style>
