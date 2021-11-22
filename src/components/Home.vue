@@ -38,7 +38,7 @@ export default {
 }
 
 .box {
-  padding: 30px;
+  /* padding: ; */
   background: transparent;
 }
 
