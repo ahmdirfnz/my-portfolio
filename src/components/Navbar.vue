@@ -18,12 +18,15 @@
     <b-navbar-item href="#">
       About
     </b-navbar-item>
+    <b-navbar-item href="#">
+      Projects
+    </b-navbar-item>
   </template>
   <template #end>
             <b-navbar-item tag="div">
                 <div class="buttons">
                     <a class="button is-primary">
-                        <strong>Subscribe</strong>
+                        <strong>Contact Me</strong>
                     </a>
                     <a class="button is-light">
                         Say Hi
@@ -40,7 +43,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .nav {
     font-size: 20px;
 }
