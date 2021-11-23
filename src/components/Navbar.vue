@@ -1,5 +1,5 @@
 <template>
-<b-navbar :fixed-top="false" :transparent="false" type="is-dark">
+<b-navbar :fixed-top="false" :transparent="true" type="is-dark">
   <template #brand>
     <b-navbar-item tag="router-link" :to="{ path: '/'}">
       <img
@@ -44,9 +44,6 @@ export default {
 </script>
 
 <style scoped>
-.nav {
-    font-size: 20px;
-}
 
 nav.navbar.is-fixed-top {
   background: transparent;
