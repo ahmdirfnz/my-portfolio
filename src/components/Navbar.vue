@@ -10,10 +10,10 @@
   </template> 
   <template #start>
     <b-navbar-item href="#">
-      Home
+      <h3>Home</h3>
     </b-navbar-item>
     <b-navbar-item href="#">
-      Skills
+      <h3>Skills</h3>
     </b-navbar-item>
     <b-navbar-item href="#">
       About
