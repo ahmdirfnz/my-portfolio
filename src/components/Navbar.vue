@@ -9,19 +9,18 @@
     </b-navbar-item>
   </template> 
   <template #start>
-    <b-navbar-item href="#">
-      <h3>Home</h3>
+    <b-navbar-item>
+      <router-link to="/">Home</router-link>
     </b-navbar-item>
-    <b-navbar-item href="#">
-      <h3>Skills</h3>
+    <b-navbar-item>
+      <router-link to="/projects">Projects</router-link>
     </b-navbar-item>
-    <b-navbar-item href="#">
-      About
+    <b-navbar-item>
+      <router-link to="/about">About</router-link>
     </b-navbar-item>
-    <b-navbar-item href="#">
-      Projects
-    </b-navbar-item>
+    <router-view />
   </template>
+  
   <template #end>
             <b-navbar-item tag="div">
                 <div class="buttons">
