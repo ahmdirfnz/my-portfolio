@@ -1,6 +1,6 @@
 <template>
 <div class="bg-img">
-<div class="tile is-ancestor">
+<div class="tile is-ancestor margin">
   <div class="tile is-4 is-vertical is-parent">
     <div class="tile is-child box">
       <p class="title">One</p>
@@ -38,6 +38,10 @@ export default {
   background-repeat:  no-repeat;
   background-size:  cover;
   height: 100%;
+}
+
+.margin {
+  margin-top: 30px;
 }
 
 
