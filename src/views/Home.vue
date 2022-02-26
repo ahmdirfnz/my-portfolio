@@ -1,16 +1,5 @@
 <template>
-<!-- <div class="box">
-  I'm in a box.
-</div> -->
 
-<!-- <div class="tile is-ancestor">
-  <div class="tile is-child notification is-warning">
-    Salam... 
-  </div>
-  <div class="tile is-child notification is-primary">
-    Perkenalan
-  </div>
-</div> -->
 <div class="box">
 <section class="section is-medium box-margin">
   <h1 class="title">Hi, Im Irfanz</h1>

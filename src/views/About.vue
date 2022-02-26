@@ -1,5 +1,5 @@
 <template>
-    <div><h1><strong>Salam...</strong></h1></div>
+    <div><h1><strong>Salam Perkenalan</strong></h1></div>
 </template>
 
 <script>
